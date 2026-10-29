@@ -75,7 +75,6 @@ flowchart LR
 ├── frontend/
 │   ├── src/{api,hooks,components,pages,utils,test}
 │   ├── Dockerfile, nginx.conf, vercel.json, .env.example
-├── docs/demo-script.md
 └── docker-compose.yml
 ```
 
