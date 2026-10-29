@@ -297,7 +297,7 @@ Both parts run on Vercel, as two projects from this one repo.
 | Live app (Vercel) | https://uk-wind-forecast-dashboard-two.vercel.app | `/`, `/accuracy`, `/delivery`, `/methodology` return 200 |
 | API (Vercel, Sydney) | https://uk-wind-forecast-api.vercel.app | `/api/health` gives `{"status":"ok","database":"ok","data_mode":"live"}`; January MAE 2,122.8 MW over 744 matched hours (same as local); CSV export works; CORS allows only the app's origin |
 | API docs | https://uk-wind-forecast-api.vercel.app/docs | 200 |
-| Repository | https://github.com/tharunkumar171717/uk-wind-forecast-dashboard | public |
+| Repository | https://github.com/tharunkumar171717/uk-wind-forecast-dashboard-project | public |
 | Demo video | not recorded yet | |
 
 The frontend Vercel project is linked to this repo (root directory `frontend`) and deploys on every push to `main`. The backend Vercel project is deployed from the `backend` folder with `vercel deploy --prod`.
